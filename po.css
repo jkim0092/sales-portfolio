@@ -415,7 +415,7 @@ pre {
 }
 
 .plain {
-  margin: 0;
+  margin: 0 0 16px;
   padding-left: 18px;
   color: var(--muted);
   font-size: 15px;
@@ -437,8 +437,15 @@ pre {
 }
 
 .skill-grid h3 {
-  margin: 0 0 8px;
+  margin: 0 0 6px;
   font-size: 15px;
+}
+
+.skill-grid p {
+  margin: 0 0 10px;
+  font-size: 13px;
+  color: var(--muted);
+  line-height: 1.5;
 }
 
 .skill-grid ul {
@@ -473,6 +480,7 @@ pre {
   #approach,
   .process,
   #data,
+  #why-yp,
   #contact,
   .skill-box,
   .flow-item,
@@ -483,6 +491,7 @@ pre {
 
   #data,
   #skills,
+  #why-yp,
   #contact {
     padding: 20px 0 4px;
     margin-top: 14px;
