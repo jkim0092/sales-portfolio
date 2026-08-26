@@ -42,7 +42,7 @@ a:hover { text-decoration: underline; }
   gap: 28px;
   align-items: center;
   min-height: calc(100vh - 56px);
-  padding: 0 0 48px;
+  padding: 2cm 0 48px;
 }
 
 .hero + section {
@@ -477,9 +477,9 @@ pre {
   .hero {
     grid-template-columns: minmax(0, 1fr) 150px;
     gap: 20px;
-    min-height: 72vh;
-    align-items: center;
-    padding: 0 0 24px;
+    min-height: 0;
+    align-items: start;
+    padding: 2cm 0 24px;
   }
   .hero-aside img { width: 150px; height: 190px; }
 
