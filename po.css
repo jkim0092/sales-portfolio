@@ -58,7 +58,7 @@ a:hover { text-decoration: underline; }
 }
 
 h1 {
-  margin: 0 0 20px;
+  margin: 0 0 1.8em;
   font-size: 26px;
   font-weight: 700;
   line-height: 1.45;
