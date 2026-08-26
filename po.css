@@ -41,7 +41,7 @@ a:hover { text-decoration: underline; }
   grid-template-columns: minmax(0, 1fr) 180px;
   gap: 28px;
   align-items: start;
-  padding: 48px 0 16px;
+  padding: calc(48px + 1.65em) 0 16px;
 }
 
 .hero + section {
@@ -52,13 +52,13 @@ a:hover { text-decoration: underline; }
 .hero-copy { min-width: 0; }
 
 .hero-label {
-  margin: 0 0 12px;
+  margin: 0 0 calc(12px + 1.65em);
   font-size: 13px;
   color: var(--muted);
 }
 
 h1 {
-  margin: 0 0 1.8em;
+  margin: 0 0 calc(20px + 1.65em);
   font-size: 26px;
   font-weight: 700;
   line-height: 1.45;
