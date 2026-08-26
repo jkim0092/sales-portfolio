@@ -40,14 +40,13 @@ a:hover { text-decoration: underline; }
   display: grid;
   grid-template-columns: minmax(0, 1fr) 180px;
   gap: 28px;
-  align-items: center;
-  min-height: calc(100vh - 56px);
-  padding: 2cm 0 48px;
+  align-items: start;
+  padding: 48px 0 16px;
 }
 
 .hero + section {
-  margin-top: 0;
-  padding-top: 32px;
+  margin-top: 20px;
+  padding-top: 28px;
 }
 
 .hero-copy { min-width: 0; }
@@ -474,13 +473,7 @@ pre {
   .page { max-width: none; padding: 0; }
   a { text-decoration: none; }
   h1 { font-size: 22px; }
-  .hero {
-    grid-template-columns: minmax(0, 1fr) 150px;
-    gap: 20px;
-    min-height: 0;
-    align-items: start;
-    padding: 2cm 0 24px;
-  }
+  .hero { grid-template-columns: minmax(0, 1fr) 150px; gap: 20px; }
   .hero-aside img { width: 150px; height: 190px; }
 
   h2 {
@@ -551,9 +544,6 @@ pre {
   .hero {
     grid-template-columns: 1fr;
     gap: 24px;
-    min-height: 0;
-    align-items: start;
-    padding: 32px 0 24px;
   }
   .hero-aside { justify-self: start; }
   .hero-aside img {
